@@ -298,6 +298,16 @@ const buttonVariants = cva("base-classes", {
 });
 ```
 
+## Notes
+
+- **Package manager:** pnpm (NEVER use npm or yarn)
+- **Node version:** Modern ES2020+; target is ESNext via Vite.
+- **Module system:** ES modules with Vite bundler.
+- **CSS:** Tailwind CSS v4 configured through Vite plugin.
+- **Path alias:** `@/` points to `src/`.
+- **Shadcn/ui components** live in `src/components/ui` and are exempt from react-refresh lint rules.
+
+
 ## Verification Checklist
 
 Before marking any task complete:
