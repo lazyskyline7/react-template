@@ -307,7 +307,6 @@ const buttonVariants = cva("base-classes", {
 - **Path alias:** `@/` points to `src/`.
 - **Shadcn/ui components** live in `src/components/ui` and are exempt from react-refresh lint rules.
 
-
 ## Verification Checklist
 
 Before marking any task complete:
